@@ -40,6 +40,9 @@ return {
 			local luasnip = require("luasnip")
 			luasnip.config.setup({})
 
+			local pairs = require("nvim-autopairs")
+			pairs.setup({ check_ts = true })
+
 			cmp.setup({
 				snippet = {
 					expand = function(args)

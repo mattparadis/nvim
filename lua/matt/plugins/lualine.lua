@@ -6,6 +6,8 @@ return {
 				options = {
 					theme = "dracula",
 					globalstatus = true,
+					section_separators = "",
+					component_separators = { left = "", right = "|" },
 				},
 			})
 		end,
