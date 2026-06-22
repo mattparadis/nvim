@@ -21,7 +21,7 @@ return {
 				end,
 			},
 			image = {
-				enabled = true,
+				enabled = false,
 				formats = {
 					"png",
 					"jpg",
